@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="container-fluid top-section bg-danger">
+    <p>Get 10%  on  some Selected items......</p>
+  </div>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-clover " style="font-size:x-large;"> H_craft</i></a>
+     
+      
+      <button class="navbar-toggler" type="button" data-mdb-collapse-init
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link   d-flex flex-column text-center" aria-current="page" href="#home"><i class="fas fa-home fa-lg text-dark my-2"></i><span class="small text-dark">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  ms-3 d-flex flex-column text-center" aria-current="page" href="#about"><i class="fas fa-user-friends fa-lg  text-dark  my-2"></i><span class=" text-dark small">About Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-3 d-flex flex-column text-center" aria-current="page" href="#product"><i class="fas fa-briefcase fa-lg  text-dark  my-2"></i><span class="text-dark small">Products</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-3 d-flex flex-column text-center" aria-current="page" href="#footer"><i class="fas fa-comment-dots fa-lg  text-dark  my-2"></i><span class="text-dark small">Contact Us</span></a>
+          </li>
+         
+          <!-- <li class="nav-item">
+            <a class="nav-link ms-3 d-flex flex-column text-center" aria-current="page" href=""><i class="fas fa-bell fa-lg  text-dark  my-2"></i><span class="small text-dark">More</span></a>
+          </li> -->
+          
+        </ul>
+        
+      </div>
+
+       
+       <form class="input-group ms-5" style="width: 300px">
+        <input type="search" class="form-control btn-outline-dark " placeholder="Search" aria-label="Search" /><br>
+          <button class="btn btn-danger  btn-outline-dark" type="button" data-mdb-ripple-init data-mdb-ripple-color="dark"  style="padding: .45rem 1.5rem .35rem;">
+          Search
+        </button>
+      </form>
+  
+      
+    </div>
+  
+  </nav>
+
+
+        <div class="container-fluid home-section" id="home">
+            <div class="row" id="home">
+            <img src="images/shawl.jpg" alt="">
+            <div class=" p-5 text-center position-absolute top-50 start-50 translate-middle">
+            <h1>Luxurious Handmade scraves and shawls</h1>
+            <h2>cashmere wool and silk</h2>
+            </div>
+            </div>
+          </div>
+
+          <div class="container-fluid row about-section " id="about">
+            <div class="col-md-6">
+             <h1>Welcome to Kashmir Art</h1>
+             <p>Kashmiri handicrafts is a traditional art of Kashmiri people and artisans who make, craft, and 
+              decorate objects by hand. Ganderbal, and Budgam are the main districts in central Kashmir which have been making handicrafts products since ages. The rest of its districts, including Srinagar, Ganderbal, and Budgam are best known for their cultural heritage which includes the handicraft industry in Jammu and Kashmir, India. Embroidery is an integral part of many Kashmiri handicrafts, shawls, carpets and Kashmiri ladies pheran are adorned with intricate embroideries or flower styles made of thin metal threads and this kind of embroidery is known as 
+              'Tille' in Kashmiri language. Embroidery work is done by both men in women in the region conventionally.</p>
+            </div>
+             <div class="col-md-6 form-section">
+              
+              <form class="ms-4">
+                <h2>Quick Contact</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="name" class="form-control" id="name" required>
+                  </div>
+                      
+                  <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="email" class="form-control" id="name" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="name">Phone number:</label>
+                    <input type="name" class="form-control" id="name" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="comment">Message:</label>
+                    <textarea class="form-control" rows="4" id="comment" name="text" required></textarea>
+                  </div>
+                      <br>
+                  
+                    <button type="submit" class="btn btn-primary col-md-12">Send</button>
+                
+                </form>
+             </div>
+          </div>
+
+          <div class="container-fluid  product-section" id="product">
+            <h1>Our Products</h1>
+            <div class="row">
+              <div class="col-md-4">
+                   <img src="images/shawal2.jpeg" alt="">
+                   <h2>Shawals</h2>
+                   </div>
+
+              <div class="col-md-4">
+                 <img src="images/basket.jpg" alt="">
+                 <h2>Baskets</h2>
+              </div>
+
+              <div class="col-md-4">
+                <img src="images/cusion.jpg" alt="">
+                <h2>Cushions</h2>
+              </div>
+
+              <div class="col-md-4">
+               <img src="images/papermachi.jpg" alt="">
+               <h2>Paper Machii</h2>
+              </div>
+
+              <div class="col-md-4">
+               <img src="images/sozi.jpg" alt="">
+               <h2>Soznii Work</h2>
+              </div>
+
+              <div class="col-md-4">
+                <img src="images/wood.jpeg" alt="">
+                <h2>Wood Craving</h2>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="container-fluid row footer-section" id="footer">
+
+            <h1>Contact Us</h1>
+
+            <div class="col-md-4">
+              <ul>
+                <li class="mb-2">  <i class="fa-solid fa-universal-access"></i> Universe</li>
+                 <li class="mb-2"> <i class="fa-solid fa-location-dot"></i> Natipora srinagar 190001</li>
+                  <li class="mb-2"> <i class="fa-solid fa-phone-volume"></i> 7051059559</li>
+                   <li class="mb-2"> <i class="fa-solid fa-envelopes-bulk"></i> info@codestrix.com</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li class="mb-2"> My Profile</li>
+                <li class="mb-2"> My Order History</li>
+                <li class="mb-2"> Order Tracking</li>
+                <li class="mb-2"> Shopping Cart</li>
+                 </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li class="mb-2"><i class="fa-brands fa-square-google-plus"></i> Google</li>
+                <li class="mb-2"> <i class="fa-brands fa-facebook"></i> Facebbok</li>
+                <li class="mb-2"><i class="fa-brands fa-youtube"></i> Youtube</li>
+                <li class="mb-2"><i class="fa-brands fa-square-instagram"></i> Instagram</li>
+                 </ul>
+            </div>
+
+          </div>
+
+          <div class=" container-fluid row end-section bg-danger">
+            <p>
+              &copy;2025 <b>Quarat Ul Qadir</b>.  All rights reserved.
+            </p>
+          </div>
+
+
+  
+          
+        
+</body>
+</html>
